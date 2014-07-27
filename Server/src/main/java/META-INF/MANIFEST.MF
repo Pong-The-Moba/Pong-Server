@@ -1,4 +1,3 @@
 Manifest-Version: 1.0
-Class-Path: natives
 Main-Class: server.PongServer
 

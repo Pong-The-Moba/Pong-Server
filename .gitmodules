@@ -4,3 +4,6 @@
 [submodule "jbox2d"]
 	path = jbox2d
 	url = https://github.com/sihrc/jbox2d.git
+[submodule "jars"]
+	path = jars
+	url = https://github.com/Pong-The-Moba/pong-the-moba-jars.git
