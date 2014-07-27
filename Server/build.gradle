@@ -12,7 +12,7 @@ mainClass = 'server.PongServer'
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
     compile 'com.esotericsoftware:kryonet:2.+'
-    compile project(':Link')
+    compile project(':Link:Pong')
     compile project(':jbox2d')
 }
 
