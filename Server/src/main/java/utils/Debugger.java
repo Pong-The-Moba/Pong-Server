@@ -3,8 +3,6 @@ package utils;
 import java.util.Arrays;
 import java.util.List;
 
-import serialize.PongPacket;
-
 /**
  * Created by chris on 6/28/14.
  * sihrc @ Github
@@ -22,7 +20,7 @@ public class Debugger extends pongutils.Debugger{
      * *
      */
     public final static List<String> enabled = Arrays.asList(
-            PongPacket.class.getSimpleName()
+           // PongPacket.class.getSimpleName()
     );
 
 
