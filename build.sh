@@ -5,4 +5,4 @@ git pull origin master
 git commit -am "Update jars"
 git push origin master
 cd ..
-echo "1" | nc 192.168.1.72 1337 
+echo "1" | nc 192.168.1.72 1337
