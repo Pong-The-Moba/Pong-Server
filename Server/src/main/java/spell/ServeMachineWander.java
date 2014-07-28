@@ -20,6 +20,7 @@ public class ServeMachineWander extends DelayedSpell {
     float jetpackDirection;
     float maxDistMeters;
     float verticalStretch;
+    float rotation;
     boolean up;
 
     float originX;
@@ -37,13 +38,13 @@ public class ServeMachineWander extends DelayedSpell {
         originX=serveMachine.getxPos();
         originY=serveMachine.getyPos();
         up=true;
+        rotation = 0;
     }
 
     @Override
     public void tick() {
         float xPos = serveMachine.getxPos();
         float yPos = serveMachine.getyPos();
-        float rotation = serveMachine.getAngle();
 
         // update forces on the serve machine
         Vec2 jetpackForce = new Vec2((float) Math.cos(jetpackDirection), (float) Math.sin(jetpackDirection))
