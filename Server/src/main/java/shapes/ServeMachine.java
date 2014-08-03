@@ -95,4 +95,9 @@ public class ServeMachine extends PongShape {
         }
         this.rotation=rotation;
     }
+
+    @Override
+    public boolean shouldSerialize() {
+        return false;
+    }
 }
